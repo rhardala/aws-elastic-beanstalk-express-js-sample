@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('le WYDAD CHAMPION D"afrique!'));
+app.get('/', (req, res) => res.send('Premier jours à THALES!'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
